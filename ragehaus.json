@@ -1,0 +1,60 @@
+{
+  "pool": "puddle.freak.farm:4242",
+  "stats": "http://puddle.freak.farm:4243/stats/",
+  "wallets": [
+    {
+      "name": "",
+      "image": "",
+      "address": "",
+      "custom": false
+    },
+    {
+      "name": "RageHauz Main",
+      "image": "ragewow.png",
+      "address": "WW2Wgf4D319A983cPM4PZZQytCKb8wgQ3RyfEoBdSesZeuDK9gAuEXBS8ST3XMdQkk9868HcPjG9E3v15iDgio8G2yrBv6mhW",
+      "custom": false
+    },
+    {
+      "name": "RENVI",
+      "image": "ren.jpg",
+      "address": "WW3fBLoKNc5aG5A1aoThMtNqHkiwsJ8xUDV6TzbQApnCLzxFp5zwZusLBHeroznwAF6WxsgnPjfZmD1Db6ubmezE1dPe3TmEA",
+      "custom": false
+    },
+    {
+      "name": "Engagethemonstr",
+      "image": "engage.jpg",
+      "address": "WW3CDqmc7KvR51KrAZVABDXjN7u4jgaTkgBYq2cpyc7YT5KYJ4ftcT12MUFZEvNHwv5uB1jXND4G7TV5diNBBpX12THsAeK9V",
+      "custom": false
+    },
+    {
+      "name": "GNVR",
+      "image": "gnvr.jpg",
+      "address": "WW31jjAoKRqJeW6XGCTxoL68oDUnoPyiwVShbHgtfTfUMEMW32ifVms57Tm3VuZ4iEbgBaBqmnABYBnqLFLLcQ8s1wAPBcjX8",
+      "custom": false
+    },
+    {
+      "name": "Wyatt Schmidt",
+      "image": "wyatt.png",
+      "address": "WW33Vcfp4C2JRXfDXVKn4dPiFnTeahCnRNKsu7LnW64tcZ2cwTzrCH2XQZvkmpKcMVDL7B3rGmg48BupUumsdp2C2oLHkMSCB",
+      "custom": false
+    },
+    {
+      "name": "TehDeevil",
+      "image": "deevil.png",
+      "address": "WW3bHUbWvNm4CxJGDz8wv74k3s9y2jWBQHUid3zU3zAXRBLZxGv5n3FMmFDTZGzmLXNvur6Q1CKg3LxaC3F2ZCQC18evj1vFe",
+      "custom": false
+    },
+    {
+      "name": "TibBot Guild",
+      "image": "tipbot.png",
+      "address": "So1e4FFiHd6aizfQRyYBm4Dj3nUgP78Y2Re6iN8HYBSLh2qZTfnJQ6sBnnTJtaPqQFA1z9sKeTJnQ7ZwMzaSzMMRJuzvoaiT8D12V9k1VF29",
+      "custom": false
+    },
+    {
+      "name": "CUSTOM",
+      "image": "ragewow.png",
+      "address": "Change Me...",
+      "custom": true
+    }
+  ]
+}
