@@ -1,5 +1,5 @@
 {
-  "pool": "puddle.freak.farm:4242",
+  "pool": "ca.wownero.herominers.com:10661",
   "stats": "http://puddle.freak.farm:4243/stats/",
   "wallets": [
     {
