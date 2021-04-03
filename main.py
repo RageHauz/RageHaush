@@ -108,8 +108,8 @@ class Window(Frame):
 
         self.curWalletImage = ImageTk.PhotoImage(Image.open(resource_path(self.wallets[self.curWalletIndex]["image"])).resize((50,50), Image.ANTIALIAS))
 
-        self.walletHash = StringVar()
-        self.walletHash.set(GetWalletHash(self))
+        #self.walletHash = StringVar()
+        #self.walletHash.set(GetWalletHash(self))
 
         self.idleCheck = IntVar()
         self.lastInput = StringVar()
@@ -184,10 +184,10 @@ class Window(Frame):
         self.walletName.pack()
         self.walletName.place(x=addrFrameWidth*0.20, y=threadFrameHeight*0.12)
 
-        self.walletHashlbl = Label(self.addrFrame, textvariable=self.walletHash, background="#414141")
-        self.walletHashlbl.pack()
-        self.walletHashlbl.place(x=addrFrameWidth*0.20, y=threadFrameHeight*0.55)
-        self.walletHashlbl.after(self.statsRefreshRate, self.RefreshWalletHash)
+        #self.walletHashlbl = Label(self.addrFrame, textvariable=self.walletHash, background="#414141")
+        #self.walletHashlbl.pack()
+        #self.walletHashlbl.place(x=addrFrameWidth*0.20, y=threadFrameHeight*0.55)
+        #self.walletHashlbl.after(self.statsRefreshRate, self.RefreshWalletHash)
 
         #doesn't display anthing, just runs updater function
         self.idleTimelbl = Label(self.addrFrame)
@@ -282,7 +282,7 @@ class Window(Frame):
 
         self.curWalletImage = ImageTk.PhotoImage(Image.open(resource_path(self.wallets[x]["image"])).resize((50,50), Image.ANTIALIAS))
         self.walletImage.configure(image = self.curWalletImage)
-        self.walletHash.set(GetWalletHash(self))
+        #self.walletHash.set(GetWalletHash(self))
 
     def startstop(self):
         if not self.started:
